@@ -1,0 +1,27 @@
+{
+  "bitcoin": {
+    "addresses_scanned": 43,
+    "gap_limit": 20,
+    "source": "https://mempool.space/api",
+    "table": "transactions_data/bitcoin_transactions.csv",
+    "table_rows": 3,
+    "used_addresses": [
+      "37iNXzmzfEy24LujzVvjDuAEQ1r2au8Xto",
+      "3MsKunajhP5rpiJMURu9ZcWgCKZ5PRL26t",
+      "3L25BzKLYxAB3rTfsaLUoQywSp6xLPvr7a"
+    ],
+    "wallet_fingerprint": "06903de769a8bdf5",
+    "wallet_type": "ypub (BIP49 P2SH-P2WPKH)"
+  },
+  "contains_tax_calculations": false,
+  "ethereum": {
+    "internal_transactions": 4,
+    "native_transactions": 60,
+    "source": "https://eth.blockscout.com/api/v2",
+    "table": "transactions_data/ethereum_transactions.csv",
+    "table_rows": 93,
+    "token_transfers": 29,
+    "wallet": "0x677878F16c6c7D6fA72510F7fbE355D1eaE276D0"
+  },
+  "generated_at": "2026-08-23T17:54:17.447106Z"
+}
