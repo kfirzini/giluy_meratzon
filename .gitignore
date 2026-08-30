@@ -1,1 +1,3 @@
 .venv-trezor-scan/
+__pycache__/
+*.py[cod]

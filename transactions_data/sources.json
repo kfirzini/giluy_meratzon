@@ -3,7 +3,7 @@
     "addresses_scanned": 43,
     "gap_limit": 20,
     "source": "https://mempool.space/api",
-    "table": "transactions_data/bitcoin_transactions.csv",
+    "table": "transactions_data/raw/bitcoin_transactions.csv",
     "table_rows": 3,
     "used_addresses": [
       "37iNXzmzfEy24LujzVvjDuAEQ1r2au8Xto",
@@ -15,13 +15,56 @@
   },
   "contains_tax_calculations": false,
   "ethereum": {
-    "internal_transactions": 4,
-    "native_transactions": 60,
+    "duplicate_rows_removed": 16,
+    "per_wallet": [
+      {
+        "internal_transactions": 4,
+        "native_transactions": 60,
+        "table_rows": 93,
+        "token_transfers": 29,
+        "wallet": "0x677878F16c6c7D6fA72510F7fbE355D1eaE276D0"
+      },
+      {
+        "internal_transactions": 0,
+        "native_transactions": 13,
+        "table_rows": 14,
+        "token_transfers": 1,
+        "wallet": "0x31aeaB4FF2D0bB779f4a274b75D598d7c426E974"
+      },
+      {
+        "internal_transactions": 0,
+        "native_transactions": 2,
+        "table_rows": 2,
+        "token_transfers": 0,
+        "wallet": "0xf6E3900686f06eCa98e3a1595F7f82588329DE95"
+      },
+      {
+        "internal_transactions": 0,
+        "native_transactions": 6,
+        "table_rows": 8,
+        "token_transfers": 2,
+        "wallet": "0xB3EBE04E4a61cdFc5DbE7fa98f96A7ff22e51817"
+      },
+      {
+        "internal_transactions": 4,
+        "native_transactions": 22,
+        "table_rows": 40,
+        "token_transfers": 14,
+        "wallet": "0xDd99152be8F2C02ce69F5710d38C7c8b1E10aA5f"
+      }
+    ],
     "source": "https://eth.blockscout.com/api/v2",
-    "table": "transactions_data/ethereum_transactions.csv",
-    "table_rows": 93,
-    "token_transfers": 29,
-    "wallet": "0x677878F16c6c7D6fA72510F7fbE355D1eaE276D0"
+    "source_rows_before_deduplication": 157,
+    "table": "transactions_data/raw/ethereum_transactions.csv",
+    "table_rows": 141,
+    "wallet_count": 5,
+    "wallets": [
+      "0x677878F16c6c7D6fA72510F7fbE355D1eaE276D0",
+      "0x31aeaB4FF2D0bB779f4a274b75D598d7c426E974",
+      "0xf6E3900686f06eCa98e3a1595F7f82588329DE95",
+      "0xB3EBE04E4a61cdFc5DbE7fa98f96A7ff22e51817",
+      "0xDd99152be8F2C02ce69F5710d38C7c8b1E10aA5f"
+    ]
   },
-  "generated_at": "2026-08-23T17:54:17.447106Z"
+  "generated_at": "2026-08-30T02:45:05.060592Z"
 }

@@ -19,8 +19,9 @@ from typing import Any
 
 WALLET_FILE = Path("personal_data.md")
 OUTPUT_DIRECTORY = Path("transactions_data")
-ETHEREUM_CSV = OUTPUT_DIRECTORY / "ethereum_transactions.csv"
-BITCOIN_CSV = OUTPUT_DIRECTORY / "bitcoin_transactions.csv"
+RAW_DIRECTORY = OUTPUT_DIRECTORY / "raw"
+ETHEREUM_CSV = RAW_DIRECTORY / "ethereum_transactions.csv"
+BITCOIN_CSV = RAW_DIRECTORY / "bitcoin_transactions.csv"
 SOURCES_FILE = OUTPUT_DIRECTORY / "sources.json"
 
 BLOCKSCOUT_API = "https://eth.blockscout.com/api/v2"
@@ -94,13 +95,13 @@ def paginated_items(endpoint: str) -> list[dict[str, Any]]:
         time.sleep(0.15)
 
 
-def load_wallets() -> tuple[str, str]:
+def load_wallets() -> tuple[list[str], str]:
     text = WALLET_FILE.read_text(encoding="utf-8")
-    ethereum = re.findall(r"\b0x[0-9a-fA-F]{40}\b", text)
+    ethereum = list(dict.fromkeys(re.findall(r"\b0x[0-9a-fA-F]{40}\b", text)))
     bitcoin = re.findall(r"\bypub[1-9A-HJ-NP-Za-km-z]{90,120}\b", text)
-    if len(ethereum) != 1 or len(bitcoin) != 1:
-        raise ValueError("expected exactly one Ethereum address and one Bitcoin ypub")
-    return ethereum[0], bitcoin[0]
+    if not ethereum or len(bitcoin) != 1:
+        raise ValueError("expected at least one Ethereum address and exactly one Bitcoin ypub")
+    return ethereum, bitcoin[0]
 
 
 def format_units(raw_value: str | int | None, decimals: str | int | None) -> str:
@@ -131,6 +132,9 @@ ETHEREUM_COLUMNS = [
     "from_address",
     "to_address",
     "asset",
+    "token_name",
+    "token_type",
+    "token_reputation",
     "amount",
     "amount_raw",
     "decimals",
@@ -142,7 +146,7 @@ ETHEREUM_COLUMNS = [
 ]
 
 
-def fetch_ethereum_table(wallet: str) -> tuple[list[dict[str, Any]], dict[str, int]]:
+def fetch_ethereum_wallet_table(wallet: str) -> tuple[list[dict[str, Any]], dict[str, int]]:
     base = f"{BLOCKSCOUT_API}/addresses/{wallet}"
     transactions = paginated_items(base + "/transactions")
     internal = paginated_items(base + "/internal-transactions")
@@ -163,6 +167,9 @@ def fetch_ethereum_table(wallet: str) -> tuple[list[dict[str, Any]], dict[str, i
                 "from_address": address_hash(item.get("from")),
                 "to_address": address_hash(item.get("to")),
                 "asset": "ETH",
+                "token_name": "",
+                "token_type": "native",
+                "token_reputation": "",
                 "amount": format_units(item.get("value"), 18),
                 "amount_raw": item.get("value", ""),
                 "decimals": 18,
@@ -187,6 +194,9 @@ def fetch_ethereum_table(wallet: str) -> tuple[list[dict[str, Any]], dict[str, i
                 "from_address": address_hash(item.get("from")),
                 "to_address": address_hash(item.get("to")),
                 "asset": "ETH",
+                "token_name": "",
+                "token_type": "native",
+                "token_reputation": "",
                 "amount": format_units(item.get("value"), 18),
                 "amount_raw": item.get("value", ""),
                 "decimals": 18,
@@ -215,6 +225,9 @@ def fetch_ethereum_table(wallet: str) -> tuple[list[dict[str, Any]], dict[str, i
                 "from_address": address_hash(item.get("from")),
                 "to_address": address_hash(item.get("to")),
                 "asset": token.get("symbol") or token.get("name") or item.get("token_type", ""),
+                "token_name": token.get("name") or "",
+                "token_type": token.get("type") or item.get("token_type", ""),
+                "token_reputation": token.get("reputation") or "",
                 "amount": format_units(amount_raw, decimals),
                 "amount_raw": amount_raw,
                 "decimals": decimals,
@@ -238,6 +251,54 @@ def fetch_ethereum_table(wallet: str) -> tuple[list[dict[str, Any]], dict[str, i
         "native_transactions": len(transactions),
         "internal_transactions": len(internal),
         "token_transfers": len(token_transfers),
+        "table_rows": len(rows),
+    }
+
+
+def ethereum_row_key(row: dict[str, Any]) -> tuple[str, ...]:
+    """Identify one blockchain event returned through one or more wallet endpoints."""
+    return (
+        str(row["record_type"]),
+        str(row["transaction_hash"]).lower(),
+        str(row["event_index"]),
+        str(row["from_address"]).lower(),
+        str(row["to_address"]).lower(),
+        str(row["asset"]),
+        str(row["amount_raw"]),
+        str(row["token_contract"]).lower(),
+    )
+
+
+def fetch_ethereum_table(
+    wallets: list[str],
+) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    rows_by_key: dict[tuple[str, ...], dict[str, Any]] = {}
+    per_wallet: list[dict[str, Any]] = []
+    source_rows = 0
+
+    for wallet in wallets:
+        print(f"  {wallet}", flush=True)
+        rows, counts = fetch_ethereum_wallet_table(wallet)
+        source_rows += len(rows)
+        per_wallet.append({"wallet": wallet, **counts})
+        for row in rows:
+            rows_by_key[ethereum_row_key(row)] = row
+
+    rows = sorted(
+        rows_by_key.values(),
+        key=lambda row: (
+            row["timestamp_utc"],
+            str(row["transaction_hash"]),
+            str(row["record_type"]),
+            str(row["event_index"]),
+        ),
+    )
+    return rows, {
+        "wallets": wallets,
+        "wallet_count": len(wallets),
+        "per_wallet": per_wallet,
+        "source_rows_before_deduplication": source_rows,
+        "duplicate_rows_removed": source_rows - len(rows),
         "table_rows": len(rows),
     }
 
@@ -374,8 +435,12 @@ BITCOIN_COLUMNS = [
     "block_hash",
     "wallet_input_addresses",
     "wallet_output_addresses",
+    "external_input_addresses",
+    "external_output_addresses",
     "wallet_input_sats",
     "wallet_output_sats",
+    "external_input_sats",
+    "external_output_sats",
     "wallet_net_sats",
     "wallet_net_btc",
     "transaction_fee_sats",
@@ -430,8 +495,16 @@ def fetch_bitcoin_table(ypub: str) -> tuple[list[dict[str, Any]], dict[str, Any]
         wallet_outputs = [
             item for item in outputs if item.get("scriptpubkey_address") in wallet_addresses
         ]
+        external_inputs = [
+            item for item in inputs if item.get("scriptpubkey_address") not in wallet_addresses
+        ]
+        external_outputs = [
+            item for item in outputs if item.get("scriptpubkey_address") not in wallet_addresses
+        ]
         input_sats = sum(int(item.get("value", 0)) for item in wallet_inputs)
         output_sats = sum(int(item.get("value", 0)) for item in wallet_outputs)
+        external_input_sats = sum(int(item.get("value", 0)) for item in external_inputs)
+        external_output_sats = sum(int(item.get("value", 0)) for item in external_outputs)
         net_sats = output_sats - input_sats
         status = transaction.get("status") or {}
         block_time = status.get("block_time")
@@ -454,8 +527,28 @@ def fetch_bitcoin_table(ypub: str) -> tuple[list[dict[str, Any]], dict[str, Any]
                 "wallet_output_addresses": ";".join(
                     sorted({item["scriptpubkey_address"] for item in wallet_outputs})
                 ),
+                "external_input_addresses": ";".join(
+                    sorted(
+                        {
+                            item.get("scriptpubkey_address", "")
+                            for item in external_inputs
+                            if item.get("scriptpubkey_address")
+                        }
+                    )
+                ),
+                "external_output_addresses": ";".join(
+                    sorted(
+                        {
+                            item.get("scriptpubkey_address", "")
+                            for item in external_outputs
+                            if item.get("scriptpubkey_address")
+                        }
+                    )
+                ),
                 "wallet_input_sats": input_sats,
                 "wallet_output_sats": output_sats,
+                "external_input_sats": external_input_sats,
+                "external_output_sats": external_output_sats,
                 "wallet_net_sats": net_sats,
                 "wallet_net_btc": format_units(net_sats, 8),
                 "transaction_fee_sats": fee_sats,
@@ -487,20 +580,17 @@ def write_csv(path: Path, columns: list[str], rows: list[dict[str, Any]]) -> Non
 
 
 def main() -> None:
-    ethereum_wallet, bitcoin_wallet = load_wallets()
-    print("Fetching Ethereum transaction table", flush=True)
-    ethereum_rows, ethereum_counts = fetch_ethereum_table(ethereum_wallet)
-    write_csv(ETHEREUM_CSV, ETHEREUM_COLUMNS, ethereum_rows)
+    ethereum_wallets, bitcoin_wallet = load_wallets()
+    print(f"Fetching Ethereum transaction table for {len(ethereum_wallets)} wallets", flush=True)
+    ethereum_rows, ethereum_counts = fetch_ethereum_table(ethereum_wallets)
 
     print("Fetching Bitcoin transaction table", flush=True)
     bitcoin_rows, bitcoin_counts = fetch_bitcoin_table(bitcoin_wallet)
-    write_csv(BITCOIN_CSV, BITCOIN_COLUMNS, bitcoin_rows)
 
     sources = {
         "generated_at": utc_now(),
         "contains_tax_calculations": False,
         "ethereum": {
-            "wallet": ethereum_wallet,
             "source": BLOCKSCOUT_API,
             "table": str(ETHEREUM_CSV),
             **ethereum_counts,
@@ -513,6 +603,9 @@ def main() -> None:
             **bitcoin_counts,
         },
     }
+    # Do not replace any prior table until every network fetch has succeeded.
+    write_csv(ETHEREUM_CSV, ETHEREUM_COLUMNS, ethereum_rows)
+    write_csv(BITCOIN_CSV, BITCOIN_COLUMNS, bitcoin_rows)
     SOURCES_FILE.write_text(
         json.dumps(sources, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
         encoding="utf-8",
