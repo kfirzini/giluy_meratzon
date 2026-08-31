@@ -1,0 +1,8 @@
+ID,Account,Type,Subtype,Datetime,Amount,Amount currency,Value,Value currency,Rate,Rate currency,Fee,Fee currency,Order ID
+17098990,Main Account,Deposit,,2017-07-10T14:10:18Z,1680,USD,,,,,7.5,USD,
+17195672,Main Account,Withdrawal,,2017-07-12T12:58:57Z,0.70532,BTC,,,,,0,BTC,
+18740626,Main Account,Deposit,,2017-08-18T09:00:08Z,6000,USD,,,,,7.5,USD,
+18867272,Main Account,Withdrawal,,2017-08-20T14:42:05Z,0.12421232,ETH,,,,,0,ETH,
+18868372,Main Account,Withdrawal,,2017-08-20T15:13:55Z,5,ETH,,,,,0,ETH,
+19241223,Main Account,Withdrawal,,2017-08-24T10:41:03Z,0.334,BTC,,,,,0,BTC,
+19524492,Main Account,Deposit,,2017-08-28T18:57:07Z,0.057,BTC,,,,,,,
