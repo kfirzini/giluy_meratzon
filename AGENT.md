@@ -21,3 +21,8 @@
 - איסוף אסמכתאות, דוחות וחישובים.
 - הכנת החומרים הנדרשים להגשה.
 - מעקב אחר מסמכים, משימות ומועדי טיפול.
+
+## tax calculation
+the tax is calculated like this.
+25% of gain in NIS, using FIFO.
+staking gains are taxed when getting them back to wallet (this never happen in my case).
