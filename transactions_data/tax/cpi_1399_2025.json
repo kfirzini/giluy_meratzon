@@ -1,0 +1,183 @@
+{
+  "retrieved_at_utc": "2026-09-15T07:52:05.500500+00:00",
+  "source": "CBS CPI calculator, index 120010",
+  "method": "ETH FIFO recomputed from ETH transactions and cached NIS prices; estimated purchase costs indexed between the recorded purchase and sale dates; original API answers preserved.",
+  "coin_type": "ETH",
+  "tax_year": 2025,
+  "calculations": [
+    {
+      "coin_type": "ETH",
+      "sale_transaction_hash": "0x372db83d67d05420abe8e7677244d369b6b8c68873c13ab6215ef27a7572862e",
+      "purchase_transaction_hash": "0xfb2182f8a3c0640505dc213a57663d48e525c66b96e841c8abe62120756e76fc",
+      "url": "https://api.cbs.gov.il/index/data/calculator/120010?value=29.61&date=2017-08-20&toDate=2025-01-29&format=json&download=false",
+      "data": {
+        "request": {
+          "code": 120010,
+          "sum": 29.61,
+          "currency": "NEW_SHEQEL",
+          "from_date": "2017-08-20",
+          "to_date": "2025-01-29"
+        },
+        "answer": {
+          "from_value": 29.61,
+          "to_value": 34.47,
+          "base_year": "2016 ממוצע",
+          "from_index_date": "2017-7",
+          "from_index_value": 99.9,
+          "to_index_date": "2024-12",
+          "to_index_value": 108.4,
+          "chaining_coefficient": 1.073,
+          "mult_min": 33569481.56,
+          "mult_max": 39077493.1,
+          "Koeff": 1,
+          "change_percent": 16.4
+        }
+      }
+    },
+    {
+      "coin_type": "ETH",
+      "sale_transaction_hash": "0x372db83d67d05420abe8e7677244d369b6b8c68873c13ab6215ef27a7572862e",
+      "purchase_transaction_hash": "0xaf8fc667e7482e1d7e8ba63fb977bae0af9663ce9148bd2b945bd0f6a87c0f3d",
+      "url": "https://api.cbs.gov.il/index/data/calculator/120010?value=335.93&date=2017-08-20&toDate=2025-01-29&format=json&download=false",
+      "data": {
+        "request": {
+          "code": 120010,
+          "sum": 335.93,
+          "currency": "NEW_SHEQEL",
+          "from_date": "2017-08-20",
+          "to_date": "2025-01-29"
+        },
+        "answer": {
+          "from_value": 335.93,
+          "to_value": 391.05,
+          "base_year": "2016 ממוצע",
+          "from_index_date": "2017-7",
+          "from_index_value": 99.9,
+          "to_index_date": "2024-12",
+          "to_index_value": 108.4,
+          "chaining_coefficient": 1.073,
+          "mult_min": 33569481.56,
+          "mult_max": 39077493.1,
+          "Koeff": 1,
+          "change_percent": 16.4
+        }
+      }
+    },
+    {
+      "coin_type": "ETH",
+      "sale_transaction_hash": "0xdaafb203b5f97fa2841d30c392212f56b9df73c8d3cb99de0c484e141d1a4eb1",
+      "purchase_transaction_hash": "0xaf8fc667e7482e1d7e8ba63fb977bae0af9663ce9148bd2b945bd0f6a87c0f3d",
+      "url": "https://api.cbs.gov.il/index/data/calculator/120010?value=439.86&date=2017-08-20&toDate=2025-05-27&format=json&download=false",
+      "data": {
+        "request": {
+          "code": 120010,
+          "sum": 439.86,
+          "currency": "NEW_SHEQEL",
+          "from_date": "2017-08-20",
+          "to_date": "2025-05-27"
+        },
+        "answer": {
+          "from_value": 439.86,
+          "to_value": 523.03,
+          "base_year": "2016 ממוצע",
+          "from_index_date": "2017-7",
+          "from_index_value": 99.9,
+          "to_index_date": "2025-4",
+          "to_index_value": 103.1,
+          "chaining_coefficient": 1.152,
+          "mult_min": 33569481.56,
+          "mult_max": 39917226.61,
+          "Koeff": 1,
+          "change_percent": 18.9
+        }
+      }
+    },
+    {
+      "coin_type": "ETH",
+      "sale_transaction_hash": "0x87c2d35a6549d00914510f02208937ce8bbec7680a45c3554489991435c031f6",
+      "purchase_transaction_hash": "0xaf8fc667e7482e1d7e8ba63fb977bae0af9663ce9148bd2b945bd0f6a87c0f3d",
+      "url": "https://api.cbs.gov.il/index/data/calculator/120010?value=130.40&date=2017-08-20&toDate=2025-08-26&format=json&download=false",
+      "data": {
+        "request": {
+          "code": 120010,
+          "sum": 130.4,
+          "currency": "NEW_SHEQEL",
+          "from_date": "2017-08-20",
+          "to_date": "2025-08-26"
+        },
+        "answer": {
+          "from_value": 130.4,
+          "to_value": 155.66,
+          "base_year": "2016 ממוצע",
+          "from_index_date": "2017-7",
+          "from_index_value": 99.9,
+          "to_index_date": "2025-7",
+          "to_index_value": 103.5,
+          "chaining_coefficient": 1.152,
+          "mult_min": 33569481.56,
+          "mult_max": 40072094.61,
+          "Koeff": 1,
+          "change_percent": 19.4
+        }
+      }
+    },
+    {
+      "coin_type": "ETH",
+      "sale_transaction_hash": "0x76eae7aa0ca15512585b2cd6bc63491461d957ce6f03030b40b93026d57cffca",
+      "purchase_transaction_hash": "0xaf8fc667e7482e1d7e8ba63fb977bae0af9663ce9148bd2b945bd0f6a87c0f3d",
+      "url": "https://api.cbs.gov.il/index/data/calculator/120010?value=166.43&date=2017-08-20&toDate=2025-11-12&format=json&download=false",
+      "data": {
+        "request": {
+          "code": 120010,
+          "sum": 166.43,
+          "currency": "NEW_SHEQEL",
+          "from_date": "2017-08-20",
+          "to_date": "2025-11-12"
+        },
+        "answer": {
+          "from_value": 166.43,
+          "to_value": 198.86,
+          "base_year": "2016 ממוצע",
+          "from_index_date": "2017-7",
+          "from_index_value": 99.9,
+          "to_index_date": "2025-9",
+          "to_index_value": 103.6,
+          "chaining_coefficient": 1.152,
+          "mult_min": 33569481.56,
+          "mult_max": 40110811.61,
+          "Koeff": 1,
+          "change_percent": 19.5
+        }
+      }
+    },
+    {
+      "coin_type": "ETH",
+      "sale_transaction_hash": "0x1bffe0c2c864beba175687f045c5cc153e4c4a73fbea9974b3b7d763d7b880ab",
+      "purchase_transaction_hash": "0xaf8fc667e7482e1d7e8ba63fb977bae0af9663ce9148bd2b945bd0f6a87c0f3d",
+      "url": "https://api.cbs.gov.il/index/data/calculator/120010?value=166.51&date=2017-08-20&toDate=2025-11-12&format=json&download=false",
+      "data": {
+        "request": {
+          "code": 120010,
+          "sum": 166.51,
+          "currency": "NEW_SHEQEL",
+          "from_date": "2017-08-20",
+          "to_date": "2025-11-12"
+        },
+        "answer": {
+          "from_value": 166.51,
+          "to_value": 198.96,
+          "base_year": "2016 ממוצע",
+          "from_index_date": "2017-7",
+          "from_index_value": 99.9,
+          "to_index_date": "2025-9",
+          "to_index_value": 103.6,
+          "chaining_coefficient": 1.152,
+          "mult_min": 33569481.56,
+          "mult_max": 40110811.61,
+          "Koeff": 1,
+          "change_percent": 19.5
+        }
+      }
+    }
+  ]
+}

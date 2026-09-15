@@ -1,0 +1,1948 @@
+{
+  "template": "1399y-2025.pdf",
+  "template_sha256": "460d8a24f20c2c48ccbc2c245edea5411234e4a3648089e02d8d31afcb07ac58",
+  "source": "פירוט_למילוי_טופסי_1399_2025.md",
+  "source_sha256": "3a8726202b6dc7f1a11667d633521d7ea68a968605e960f4a5dda10ea93b196a",
+  "asset": "ETH",
+  "year": 2025,
+  "forms": [
+    {
+      "number": 1,
+      "file": "1399_2025_ETH_01_2025-01-29.pdf",
+      "sale_date": "29/01/2025",
+      "quantity": "0.027760470916899",
+      "sale_hash": "0x372db83d67d05420abe8e7677244d369b6b8c68873c13ab6215ef27a7572862e",
+      "purchase_hash": "0xfb2182f8a3c0640505dc213a57663d48e525c66b96e841c8abe62120756e76fc",
+      "fields": {
+        "sale_amount": "310.52",
+        "sale_index": "116.291387",
+        "cost": "29.61",
+        "purchase_index": "99.9",
+        "original_cost": "29.61",
+        "expenses": "0.06",
+        "adjusted_cost": "34.47",
+        "inflation": "4.86",
+        "gain": "280.85",
+        "real_gain": "275.99",
+        "attributable_gain": "275.99",
+        "post_2012_gain": "275.99",
+        "gain_before_offsets": "275.99",
+        "tax_before_offsets": "69.00"
+      },
+      "overlay_entries": [
+        {
+          "page": 1,
+          "field": "tax_year",
+          "value": "2025",
+          "font_size": 10.5,
+          "x": 142.539,
+          "baseline_from_top": 86.8,
+          "width": 26.722
+        },
+        {
+          "page": 1,
+          "field": "transaction_code",
+          "value": "77",
+          "font_size": 10.5,
+          "x": 265.42,
+          "baseline_from_top": 86.8,
+          "width": 13.361
+        },
+        {
+          "page": 1,
+          "field": "seller_name",
+          "value": "כפיר זיני",
+          "font_size": 11,
+          "x": 466.008,
+          "baseline_from_top": 152.3,
+          "width": 37.984
+        },
+        {
+          "page": 1,
+          "field": "identity_in_seller_box",
+          "value": "ת״ז 302503982",
+          "font_size": 8.0,
+          "x": 454.232,
+          "baseline_from_top": 163.0,
+          "width": 61.535
+        },
+        {
+          "page": 1,
+          "field": "asset",
+          "value": "ETH 0.027760470916899",
+          "font_size": 6.909,
+          "x": 447.0,
+          "baseline_from_top": 189.8,
+          "width": 88.5
+        },
+        {
+          "page": 1,
+          "field": "sale_amount",
+          "value": "310.52",
+          "font_size": 10.5,
+          "x": 333.13,
+          "baseline_from_top": 233.7,
+          "width": 36.74
+        },
+        {
+          "page": 1,
+          "field": "sale_index",
+          "value": "116.291387",
+          "font_size": 7.1,
+          "x": 183.294,
+          "baseline_from_top": 233.5,
+          "width": 42.912
+        },
+        {
+          "page": 1,
+          "field": "sale_date_day",
+          "value": "29",
+          "font_size": 8.1,
+          "x": 234.097,
+          "baseline_from_top": 237.0,
+          "width": 10.307
+        },
+        {
+          "page": 1,
+          "field": "sale_date_month",
+          "value": "01",
+          "font_size": 8.1,
+          "x": 252.197,
+          "baseline_from_top": 237.0,
+          "width": 10.307
+        },
+        {
+          "page": 1,
+          "field": "sale_date_year",
+          "value": "2025",
+          "font_size": 8.1,
+          "x": 266.943,
+          "baseline_from_top": 237.0,
+          "width": 20.614
+        },
+        {
+          "page": 1,
+          "field": "cost",
+          "value": "29.61",
+          "font_size": 10.5,
+          "x": 336.47,
+          "baseline_from_top": 266.5,
+          "width": 30.059
+        },
+        {
+          "page": 1,
+          "field": "purchase_index",
+          "value": "99.9",
+          "font_size": 8.5,
+          "x": 195.287,
+          "baseline_from_top": 266.0,
+          "width": 18.926
+        },
+        {
+          "page": 1,
+          "field": "purchase_date_day",
+          "value": "20",
+          "font_size": 8.1,
+          "x": 234.097,
+          "baseline_from_top": 270.0,
+          "width": 10.307
+        },
+        {
+          "page": 1,
+          "field": "purchase_date_month",
+          "value": "08",
+          "font_size": 8.1,
+          "x": 252.197,
+          "baseline_from_top": 270.0,
+          "width": 10.307
+        },
+        {
+          "page": 1,
+          "field": "purchase_date_year",
+          "value": "2017",
+          "font_size": 8.1,
+          "x": 266.943,
+          "baseline_from_top": 270.0,
+          "width": 20.614
+        },
+        {
+          "page": 1,
+          "field": "adjusted_cost_at_purchase_row",
+          "value": "34.47",
+          "font_size": 10,
+          "x": 128.186,
+          "baseline_from_top": 266.5,
+          "width": 28.628
+        },
+        {
+          "page": 1,
+          "field": "original_cost",
+          "value": "29.61",
+          "font_size": 10.5,
+          "x": 336.47,
+          "baseline_from_top": 422.0,
+          "width": 30.059
+        },
+        {
+          "page": 1,
+          "field": "expenses",
+          "value": "0.06",
+          "font_size": 10.5,
+          "x": 339.811,
+          "baseline_from_top": 444.4,
+          "width": 23.379
+        },
+        {
+          "page": 1,
+          "field": "adjusted_cost_total_13",
+          "value": "34.47",
+          "font_size": 10,
+          "x": 121.186,
+          "baseline_from_top": 402.6,
+          "width": 28.628
+        },
+        {
+          "page": 1,
+          "field": "inflation_17",
+          "value": "4.86",
+          "font_size": 10,
+          "x": 178.867,
+          "baseline_from_top": 467.0,
+          "width": 22.266
+        },
+        {
+          "page": 1,
+          "field": "gain_18",
+          "value": "280.85",
+          "font_size": 10.5,
+          "x": 42.63,
+          "baseline_from_top": 467.0,
+          "width": 36.74
+        },
+        {
+          "page": 1,
+          "field": "virtual_currency_code_71",
+          "value": true,
+          "x": 441.5,
+          "y": 518.0
+        },
+        {
+          "page": 1,
+          "field": "real_gain_24",
+          "value": "275.99",
+          "font_size": 10,
+          "x": 228.755,
+          "baseline_from_top": 589.2,
+          "width": 34.99
+        },
+        {
+          "page": 1,
+          "field": "attributable_gain_24a",
+          "value": "275.99",
+          "font_size": 10,
+          "x": 51.005,
+          "baseline_from_top": 589.2,
+          "width": 34.99
+        },
+        {
+          "page": 1,
+          "field": "post_2012_gain_27",
+          "value": "275.99",
+          "font_size": 10,
+          "x": 161.755,
+          "baseline_from_top": 644.0,
+          "width": 34.99
+        },
+        {
+          "page": 1,
+          "field": "gain_before_offsets_32",
+          "value": "275.99",
+          "font_size": 10,
+          "x": 161.755,
+          "baseline_from_top": 708.0,
+          "width": 34.99
+        },
+        {
+          "page": 1,
+          "field": "tax_before_offsets_33",
+          "value": "69.00",
+          "font_size": 10,
+          "x": 164.936,
+          "baseline_from_top": 739.3,
+          "width": 28.628
+        },
+        {
+          "page": 2,
+          "field": "note_sale",
+          "value": "טופס 1 מתוך 6; מועד מכירה: 29/01/2025; מזהה מכירה:",
+          "font_size": 6.8,
+          "x": 138.854,
+          "baseline_from_top": 154.9,
+          "width": 170.146
+        },
+        {
+          "page": 2,
+          "field": "note_sale_hash",
+          "value": "0x372db83d67d05420abe8e7677244d369b6b8c68873c13ab6215ef27a7572862e",
+          "font_size": 6.0,
+          "x": 59,
+          "baseline_from_top": 161.7,
+          "width": 247.934
+        },
+        {
+          "page": 2,
+          "field": "note_purchase",
+          "value": "מנת רכישה מיום 20/08/2017 | מזהה רכישה:",
+          "font_size": 6.8,
+          "x": 175.653,
+          "baseline_from_top": 169.4,
+          "width": 133.347
+        },
+        {
+          "page": 2,
+          "field": "note_purchase_hash",
+          "value": "0xfb2182f8a3c0640505dc213a57663d48e525c66b96e841c8abe62120756e76fc",
+          "font_size": 6.0,
+          "x": 59,
+          "baseline_from_top": 176.2,
+          "width": 243.003
+        },
+        {
+          "page": 2,
+          "field": "note_valuation",
+          "value": "שווי ש״ח לפי אומדני נייר העבודה; מס 25% לפני קיזוזים.",
+          "font_size": 6.8,
+          "x": 145.123,
+          "baseline_from_top": 183.7,
+          "width": 163.877
+        },
+        {
+          "page": 2,
+          "field": "note_index_base",
+          "value": "מדדים בבסיס ממוצע 2016 = 100. פרטים חסרים וחתימה להשלמה.",
+          "font_size": 6.8,
+          "x": 108.925,
+          "baseline_from_top": 190.5,
+          "width": 200.075
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "file": "1399_2025_ETH_02_2025-01-29.pdf",
+      "sale_date": "29/01/2025",
+      "quantity": "0.315619769083101",
+      "sale_hash": "0x372db83d67d05420abe8e7677244d369b6b8c68873c13ab6215ef27a7572862e",
+      "purchase_hash": "0xaf8fc667e7482e1d7e8ba63fb977bae0af9663ce9148bd2b945bd0f6a87c0f3d",
+      "fields": {
+        "sale_amount": "3,530.37",
+        "sale_index": "116.291387",
+        "cost": "335.93",
+        "purchase_index": "99.9",
+        "original_cost": "335.93",
+        "expenses": "0.66",
+        "adjusted_cost": "391.05",
+        "inflation": "55.12",
+        "gain": "3,193.78",
+        "real_gain": "3,138.66",
+        "attributable_gain": "3,138.66",
+        "post_2012_gain": "3,138.66",
+        "gain_before_offsets": "3,138.66",
+        "tax_before_offsets": "784.67"
+      },
+      "overlay_entries": [
+        {
+          "page": 1,
+          "field": "tax_year",
+          "value": "2025",
+          "font_size": 10.5,
+          "x": 142.539,
+          "baseline_from_top": 86.8,
+          "width": 26.722
+        },
+        {
+          "page": 1,
+          "field": "transaction_code",
+          "value": "77",
+          "font_size": 10.5,
+          "x": 265.42,
+          "baseline_from_top": 86.8,
+          "width": 13.361
+        },
+        {
+          "page": 1,
+          "field": "seller_name",
+          "value": "כפיר זיני",
+          "font_size": 11,
+          "x": 466.008,
+          "baseline_from_top": 152.3,
+          "width": 37.984
+        },
+        {
+          "page": 1,
+          "field": "identity_in_seller_box",
+          "value": "ת״ז 302503982",
+          "font_size": 8.0,
+          "x": 454.232,
+          "baseline_from_top": 163.0,
+          "width": 61.535
+        },
+        {
+          "page": 1,
+          "field": "asset",
+          "value": "ETH 0.315619769083101",
+          "font_size": 6.909,
+          "x": 447.0,
+          "baseline_from_top": 189.8,
+          "width": 88.5
+        },
+        {
+          "page": 1,
+          "field": "sale_amount",
+          "value": "3,530.37",
+          "font_size": 10.5,
+          "x": 328.121,
+          "baseline_from_top": 233.7,
+          "width": 46.758
+        },
+        {
+          "page": 1,
+          "field": "sale_index",
+          "value": "116.291387",
+          "font_size": 7.1,
+          "x": 183.294,
+          "baseline_from_top": 233.5,
+          "width": 42.912
+        },
+        {
+          "page": 1,
+          "field": "sale_date_day",
+          "value": "29",
+          "font_size": 8.1,
+          "x": 234.097,
+          "baseline_from_top": 237.0,
+          "width": 10.307
+        },
+        {
+          "page": 1,
+          "field": "sale_date_month",
+          "value": "01",
+          "font_size": 8.1,
+          "x": 252.197,
+          "baseline_from_top": 237.0,
+          "width": 10.307
+        },
+        {
+          "page": 1,
+          "field": "sale_date_year",
+          "value": "2025",
+          "font_size": 8.1,
+          "x": 266.943,
+          "baseline_from_top": 237.0,
+          "width": 20.614
+        },
+        {
+          "page": 1,
+          "field": "cost",
+          "value": "335.93",
+          "font_size": 10.5,
+          "x": 333.13,
+          "baseline_from_top": 266.5,
+          "width": 36.74
+        },
+        {
+          "page": 1,
+          "field": "purchase_index",
+          "value": "99.9",
+          "font_size": 8.5,
+          "x": 195.287,
+          "baseline_from_top": 266.0,
+          "width": 18.926
+        },
+        {
+          "page": 1,
+          "field": "purchase_date_day",
+          "value": "20",
+          "font_size": 8.1,
+          "x": 234.097,
+          "baseline_from_top": 270.0,
+          "width": 10.307
+        },
+        {
+          "page": 1,
+          "field": "purchase_date_month",
+          "value": "08",
+          "font_size": 8.1,
+          "x": 252.197,
+          "baseline_from_top": 270.0,
+          "width": 10.307
+        },
+        {
+          "page": 1,
+          "field": "purchase_date_year",
+          "value": "2017",
+          "font_size": 8.1,
+          "x": 266.943,
+          "baseline_from_top": 270.0,
+          "width": 20.614
+        },
+        {
+          "page": 1,
+          "field": "adjusted_cost_at_purchase_row",
+          "value": "391.05",
+          "font_size": 10,
+          "x": 125.005,
+          "baseline_from_top": 266.5,
+          "width": 34.99
+        },
+        {
+          "page": 1,
+          "field": "original_cost",
+          "value": "335.93",
+          "font_size": 10.5,
+          "x": 333.13,
+          "baseline_from_top": 422.0,
+          "width": 36.74
+        },
+        {
+          "page": 1,
+          "field": "expenses",
+          "value": "0.66",
+          "font_size": 10.5,
+          "x": 339.811,
+          "baseline_from_top": 444.4,
+          "width": 23.379
+        },
+        {
+          "page": 1,
+          "field": "adjusted_cost_total_13",
+          "value": "391.05",
+          "font_size": 10,
+          "x": 118.005,
+          "baseline_from_top": 402.6,
+          "width": 34.99
+        },
+        {
+          "page": 1,
+          "field": "inflation_17",
+          "value": "55.12",
+          "font_size": 10,
+          "x": 175.686,
+          "baseline_from_top": 467.0,
+          "width": 28.628
+        },
+        {
+          "page": 1,
+          "field": "gain_18",
+          "value": "3,193.78",
+          "font_size": 10.5,
+          "x": 37.621,
+          "baseline_from_top": 467.0,
+          "width": 46.758
+        },
+        {
+          "page": 1,
+          "field": "virtual_currency_code_71",
+          "value": true,
+          "x": 441.5,
+          "y": 518.0
+        },
+        {
+          "page": 1,
+          "field": "real_gain_24",
+          "value": "3,138.66",
+          "font_size": 10,
+          "x": 223.984,
+          "baseline_from_top": 589.2,
+          "width": 44.531
+        },
+        {
+          "page": 1,
+          "field": "attributable_gain_24a",
+          "value": "3,138.66",
+          "font_size": 10,
+          "x": 46.234,
+          "baseline_from_top": 589.2,
+          "width": 44.531
+        },
+        {
+          "page": 1,
+          "field": "post_2012_gain_27",
+          "value": "3,138.66",
+          "font_size": 10,
+          "x": 156.984,
+          "baseline_from_top": 644.0,
+          "width": 44.531
+        },
+        {
+          "page": 1,
+          "field": "gain_before_offsets_32",
+          "value": "3,138.66",
+          "font_size": 10,
+          "x": 156.984,
+          "baseline_from_top": 708.0,
+          "width": 44.531
+        },
+        {
+          "page": 1,
+          "field": "tax_before_offsets_33",
+          "value": "784.67",
+          "font_size": 10,
+          "x": 161.755,
+          "baseline_from_top": 739.3,
+          "width": 34.99
+        },
+        {
+          "page": 2,
+          "field": "note_sale",
+          "value": "טופס 2 מתוך 6; מועד מכירה: 29/01/2025; מזהה מכירה:",
+          "font_size": 6.8,
+          "x": 138.854,
+          "baseline_from_top": 154.9,
+          "width": 170.146
+        },
+        {
+          "page": 2,
+          "field": "note_sale_hash",
+          "value": "0x372db83d67d05420abe8e7677244d369b6b8c68873c13ab6215ef27a7572862e",
+          "font_size": 6.0,
+          "x": 59,
+          "baseline_from_top": 161.7,
+          "width": 247.934
+        },
+        {
+          "page": 2,
+          "field": "note_purchase",
+          "value": "מנת רכישה מיום 20/08/2017 | מזהה רכישה:",
+          "font_size": 6.8,
+          "x": 175.653,
+          "baseline_from_top": 169.4,
+          "width": 133.347
+        },
+        {
+          "page": 2,
+          "field": "note_purchase_hash",
+          "value": "0xaf8fc667e7482e1d7e8ba63fb977bae0af9663ce9148bd2b945bd0f6a87c0f3d",
+          "font_size": 6.0,
+          "x": 59,
+          "baseline_from_top": 176.2,
+          "width": 238.474
+        },
+        {
+          "page": 2,
+          "field": "note_valuation",
+          "value": "שווי ש״ח לפי אומדני נייר העבודה; מס 25% לפני קיזוזים.",
+          "font_size": 6.8,
+          "x": 145.123,
+          "baseline_from_top": 183.7,
+          "width": 163.877
+        },
+        {
+          "page": 2,
+          "field": "note_index_base",
+          "value": "מדדים בבסיס ממוצע 2016 = 100. פרטים חסרים וחתימה להשלמה.",
+          "font_size": 6.8,
+          "x": 108.925,
+          "baseline_from_top": 190.5,
+          "width": 200.075
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "file": "1399_2025_ETH_03_2025-05-27.pdf",
+      "sale_date": "27/05/2025",
+      "quantity": "0.41326467",
+      "sale_hash": "0xdaafb203b5f97fa2841d30c392212f56b9df73c8d3cb99de0c484e141d1a4eb1",
+      "purchase_hash": "0xaf8fc667e7482e1d7e8ba63fb977bae0af9663ce9148bd2b945bd0f6a87c0f3d",
+      "fields": {
+        "sale_amount": "3,844.66",
+        "sale_index": "118.790364",
+        "cost": "439.86",
+        "purchase_index": "99.9",
+        "original_cost": "439.86",
+        "expenses": "0.68",
+        "adjusted_cost": "523.03",
+        "inflation": "83.17",
+        "gain": "3,404.12",
+        "real_gain": "3,320.95",
+        "attributable_gain": "3,320.95",
+        "post_2012_gain": "3,320.95",
+        "gain_before_offsets": "3,320.95",
+        "tax_before_offsets": "830.24"
+      },
+      "overlay_entries": [
+        {
+          "page": 1,
+          "field": "tax_year",
+          "value": "2025",
+          "font_size": 10.5,
+          "x": 142.539,
+          "baseline_from_top": 86.8,
+          "width": 26.722
+        },
+        {
+          "page": 1,
+          "field": "transaction_code",
+          "value": "77",
+          "font_size": 10.5,
+          "x": 265.42,
+          "baseline_from_top": 86.8,
+          "width": 13.361
+        },
+        {
+          "page": 1,
+          "field": "seller_name",
+          "value": "כפיר זיני",
+          "font_size": 11,
+          "x": 466.008,
+          "baseline_from_top": 152.3,
+          "width": 37.984
+        },
+        {
+          "page": 1,
+          "field": "identity_in_seller_box",
+          "value": "ת״ז 302503982",
+          "font_size": 8.0,
+          "x": 454.232,
+          "baseline_from_top": 163.0,
+          "width": 61.535
+        },
+        {
+          "page": 1,
+          "field": "asset",
+          "value": "ETH 0.41326467",
+          "font_size": 8.0,
+          "x": 457.824,
+          "baseline_from_top": 189.8,
+          "width": 66.852
+        },
+        {
+          "page": 1,
+          "field": "sale_amount",
+          "value": "3,844.66",
+          "font_size": 10.5,
+          "x": 328.121,
+          "baseline_from_top": 233.7,
+          "width": 46.758
+        },
+        {
+          "page": 1,
+          "field": "sale_index",
+          "value": "118.790364",
+          "font_size": 7.1,
+          "x": 183.294,
+          "baseline_from_top": 233.5,
+          "width": 42.912
+        },
+        {
+          "page": 1,
+          "field": "sale_date_day",
+          "value": "27",
+          "font_size": 8.1,
+          "x": 234.097,
+          "baseline_from_top": 237.0,
+          "width": 10.307
+        },
+        {
+          "page": 1,
+          "field": "sale_date_month",
+          "value": "05",
+          "font_size": 8.1,
+          "x": 252.197,
+          "baseline_from_top": 237.0,
+          "width": 10.307
+        },
+        {
+          "page": 1,
+          "field": "sale_date_year",
+          "value": "2025",
+          "font_size": 8.1,
+          "x": 266.943,
+          "baseline_from_top": 237.0,
+          "width": 20.614
+        },
+        {
+          "page": 1,
+          "field": "cost",
+          "value": "439.86",
+          "font_size": 10.5,
+          "x": 333.13,
+          "baseline_from_top": 266.5,
+          "width": 36.74
+        },
+        {
+          "page": 1,
+          "field": "purchase_index",
+          "value": "99.9",
+          "font_size": 8.5,
+          "x": 195.287,
+          "baseline_from_top": 266.0,
+          "width": 18.926
+        },
+        {
+          "page": 1,
+          "field": "purchase_date_day",
+          "value": "20",
+          "font_size": 8.1,
+          "x": 234.097,
+          "baseline_from_top": 270.0,
+          "width": 10.307
+        },
+        {
+          "page": 1,
+          "field": "purchase_date_month",
+          "value": "08",
+          "font_size": 8.1,
+          "x": 252.197,
+          "baseline_from_top": 270.0,
+          "width": 10.307
+        },
+        {
+          "page": 1,
+          "field": "purchase_date_year",
+          "value": "2017",
+          "font_size": 8.1,
+          "x": 266.943,
+          "baseline_from_top": 270.0,
+          "width": 20.614
+        },
+        {
+          "page": 1,
+          "field": "adjusted_cost_at_purchase_row",
+          "value": "523.03",
+          "font_size": 10,
+          "x": 125.005,
+          "baseline_from_top": 266.5,
+          "width": 34.99
+        },
+        {
+          "page": 1,
+          "field": "original_cost",
+          "value": "439.86",
+          "font_size": 10.5,
+          "x": 333.13,
+          "baseline_from_top": 422.0,
+          "width": 36.74
+        },
+        {
+          "page": 1,
+          "field": "expenses",
+          "value": "0.68",
+          "font_size": 10.5,
+          "x": 339.811,
+          "baseline_from_top": 444.4,
+          "width": 23.379
+        },
+        {
+          "page": 1,
+          "field": "adjusted_cost_total_13",
+          "value": "523.03",
+          "font_size": 10,
+          "x": 118.005,
+          "baseline_from_top": 402.6,
+          "width": 34.99
+        },
+        {
+          "page": 1,
+          "field": "inflation_17",
+          "value": "83.17",
+          "font_size": 10,
+          "x": 175.686,
+          "baseline_from_top": 467.0,
+          "width": 28.628
+        },
+        {
+          "page": 1,
+          "field": "gain_18",
+          "value": "3,404.12",
+          "font_size": 10.5,
+          "x": 37.621,
+          "baseline_from_top": 467.0,
+          "width": 46.758
+        },
+        {
+          "page": 1,
+          "field": "virtual_currency_code_71",
+          "value": true,
+          "x": 441.5,
+          "y": 518.0
+        },
+        {
+          "page": 1,
+          "field": "real_gain_24",
+          "value": "3,320.95",
+          "font_size": 10,
+          "x": 223.984,
+          "baseline_from_top": 589.2,
+          "width": 44.531
+        },
+        {
+          "page": 1,
+          "field": "attributable_gain_24a",
+          "value": "3,320.95",
+          "font_size": 10,
+          "x": 46.234,
+          "baseline_from_top": 589.2,
+          "width": 44.531
+        },
+        {
+          "page": 1,
+          "field": "post_2012_gain_27",
+          "value": "3,320.95",
+          "font_size": 10,
+          "x": 156.984,
+          "baseline_from_top": 644.0,
+          "width": 44.531
+        },
+        {
+          "page": 1,
+          "field": "gain_before_offsets_32",
+          "value": "3,320.95",
+          "font_size": 10,
+          "x": 156.984,
+          "baseline_from_top": 708.0,
+          "width": 44.531
+        },
+        {
+          "page": 1,
+          "field": "tax_before_offsets_33",
+          "value": "830.24",
+          "font_size": 10,
+          "x": 161.755,
+          "baseline_from_top": 739.3,
+          "width": 34.99
+        },
+        {
+          "page": 2,
+          "field": "note_sale",
+          "value": "טופס 3 מתוך 6; מועד מכירה: 27/05/2025; מזהה מכירה:",
+          "font_size": 6.8,
+          "x": 138.854,
+          "baseline_from_top": 154.9,
+          "width": 170.146
+        },
+        {
+          "page": 2,
+          "field": "note_sale_hash",
+          "value": "0xdaafb203b5f97fa2841d30c392212f56b9df73c8d3cb99de0c484e141d1a4eb1",
+          "font_size": 6.0,
+          "x": 59,
+          "baseline_from_top": 161.7,
+          "width": 240.044
+        },
+        {
+          "page": 2,
+          "field": "note_purchase",
+          "value": "מנת רכישה מיום 20/08/2017 | מזהה רכישה:",
+          "font_size": 6.8,
+          "x": 175.653,
+          "baseline_from_top": 169.4,
+          "width": 133.347
+        },
+        {
+          "page": 2,
+          "field": "note_purchase_hash",
+          "value": "0xaf8fc667e7482e1d7e8ba63fb977bae0af9663ce9148bd2b945bd0f6a87c0f3d",
+          "font_size": 6.0,
+          "x": 59,
+          "baseline_from_top": 176.2,
+          "width": 238.474
+        },
+        {
+          "page": 2,
+          "field": "note_valuation",
+          "value": "שווי ש״ח לפי אומדני נייר העבודה; מס 25% לפני קיזוזים.",
+          "font_size": 6.8,
+          "x": 145.123,
+          "baseline_from_top": 183.7,
+          "width": 163.877
+        },
+        {
+          "page": 2,
+          "field": "note_index_base",
+          "value": "מדדים בבסיס ממוצע 2016 = 100. פרטים חסרים וחתימה להשלמה.",
+          "font_size": 6.8,
+          "x": 108.925,
+          "baseline_from_top": 190.5,
+          "width": 200.075
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "file": "1399_2025_ETH_04_2025-08-26.pdf",
+      "sale_date": "26/08/2025",
+      "quantity": "0.1225156",
+      "sale_hash": "0x87c2d35a6549d00914510f02208937ce8bbec7680a45c3554489991435c031f6",
+      "purchase_hash": "0xaf8fc667e7482e1d7e8ba63fb977bae0af9663ce9148bd2b945bd0f6a87c0f3d",
+      "fields": {
+        "sale_amount": "1,827.60",
+        "sale_index": "119.251238",
+        "cost": "130.40",
+        "purchase_index": "99.9",
+        "original_cost": "130.40",
+        "expenses": "0.38",
+        "adjusted_cost": "155.66",
+        "inflation": "25.26",
+        "gain": "1,696.82",
+        "real_gain": "1,671.56",
+        "attributable_gain": "1,671.56",
+        "post_2012_gain": "1,671.56",
+        "gain_before_offsets": "1,671.56",
+        "tax_before_offsets": "417.89"
+      },
+      "overlay_entries": [
+        {
+          "page": 1,
+          "field": "tax_year",
+          "value": "2025",
+          "font_size": 10.5,
+          "x": 142.539,
+          "baseline_from_top": 86.8,
+          "width": 26.722
+        },
+        {
+          "page": 1,
+          "field": "transaction_code",
+          "value": "77",
+          "font_size": 10.5,
+          "x": 265.42,
+          "baseline_from_top": 86.8,
+          "width": 13.361
+        },
+        {
+          "page": 1,
+          "field": "seller_name",
+          "value": "כפיר זיני",
+          "font_size": 11,
+          "x": 466.008,
+          "baseline_from_top": 152.3,
+          "width": 37.984
+        },
+        {
+          "page": 1,
+          "field": "identity_in_seller_box",
+          "value": "ת״ז 302503982",
+          "font_size": 8.0,
+          "x": 454.232,
+          "baseline_from_top": 163.0,
+          "width": 61.535
+        },
+        {
+          "page": 1,
+          "field": "asset",
+          "value": "ETH 0.1225156",
+          "font_size": 8.0,
+          "x": 460.369,
+          "baseline_from_top": 189.8,
+          "width": 61.762
+        },
+        {
+          "page": 1,
+          "field": "sale_amount",
+          "value": "1,827.60",
+          "font_size": 10.5,
+          "x": 328.121,
+          "baseline_from_top": 233.7,
+          "width": 46.758
+        },
+        {
+          "page": 1,
+          "field": "sale_index",
+          "value": "119.251238",
+          "font_size": 7.1,
+          "x": 183.294,
+          "baseline_from_top": 233.5,
+          "width": 42.912
+        },
+        {
+          "page": 1,
+          "field": "sale_date_day",
+          "value": "26",
+          "font_size": 8.1,
+          "x": 234.097,
+          "baseline_from_top": 237.0,
+          "width": 10.307
+        },
+        {
+          "page": 1,
+          "field": "sale_date_month",
+          "value": "08",
+          "font_size": 8.1,
+          "x": 252.197,
+          "baseline_from_top": 237.0,
+          "width": 10.307
+        },
+        {
+          "page": 1,
+          "field": "sale_date_year",
+          "value": "2025",
+          "font_size": 8.1,
+          "x": 266.943,
+          "baseline_from_top": 237.0,
+          "width": 20.614
+        },
+        {
+          "page": 1,
+          "field": "cost",
+          "value": "130.40",
+          "font_size": 10.5,
+          "x": 333.13,
+          "baseline_from_top": 266.5,
+          "width": 36.74
+        },
+        {
+          "page": 1,
+          "field": "purchase_index",
+          "value": "99.9",
+          "font_size": 8.5,
+          "x": 195.287,
+          "baseline_from_top": 266.0,
+          "width": 18.926
+        },
+        {
+          "page": 1,
+          "field": "purchase_date_day",
+          "value": "20",
+          "font_size": 8.1,
+          "x": 234.097,
+          "baseline_from_top": 270.0,
+          "width": 10.307
+        },
+        {
+          "page": 1,
+          "field": "purchase_date_month",
+          "value": "08",
+          "font_size": 8.1,
+          "x": 252.197,
+          "baseline_from_top": 270.0,
+          "width": 10.307
+        },
+        {
+          "page": 1,
+          "field": "purchase_date_year",
+          "value": "2017",
+          "font_size": 8.1,
+          "x": 266.943,
+          "baseline_from_top": 270.0,
+          "width": 20.614
+        },
+        {
+          "page": 1,
+          "field": "adjusted_cost_at_purchase_row",
+          "value": "155.66",
+          "font_size": 10,
+          "x": 125.005,
+          "baseline_from_top": 266.5,
+          "width": 34.99
+        },
+        {
+          "page": 1,
+          "field": "original_cost",
+          "value": "130.40",
+          "font_size": 10.5,
+          "x": 333.13,
+          "baseline_from_top": 422.0,
+          "width": 36.74
+        },
+        {
+          "page": 1,
+          "field": "expenses",
+          "value": "0.38",
+          "font_size": 10.5,
+          "x": 339.811,
+          "baseline_from_top": 444.4,
+          "width": 23.379
+        },
+        {
+          "page": 1,
+          "field": "adjusted_cost_total_13",
+          "value": "155.66",
+          "font_size": 10,
+          "x": 118.005,
+          "baseline_from_top": 402.6,
+          "width": 34.99
+        },
+        {
+          "page": 1,
+          "field": "inflation_17",
+          "value": "25.26",
+          "font_size": 10,
+          "x": 175.686,
+          "baseline_from_top": 467.0,
+          "width": 28.628
+        },
+        {
+          "page": 1,
+          "field": "gain_18",
+          "value": "1,696.82",
+          "font_size": 10.5,
+          "x": 37.621,
+          "baseline_from_top": 467.0,
+          "width": 46.758
+        },
+        {
+          "page": 1,
+          "field": "virtual_currency_code_71",
+          "value": true,
+          "x": 441.5,
+          "y": 518.0
+        },
+        {
+          "page": 1,
+          "field": "real_gain_24",
+          "value": "1,671.56",
+          "font_size": 10,
+          "x": 223.984,
+          "baseline_from_top": 589.2,
+          "width": 44.531
+        },
+        {
+          "page": 1,
+          "field": "attributable_gain_24a",
+          "value": "1,671.56",
+          "font_size": 10,
+          "x": 46.234,
+          "baseline_from_top": 589.2,
+          "width": 44.531
+        },
+        {
+          "page": 1,
+          "field": "post_2012_gain_27",
+          "value": "1,671.56",
+          "font_size": 10,
+          "x": 156.984,
+          "baseline_from_top": 644.0,
+          "width": 44.531
+        },
+        {
+          "page": 1,
+          "field": "gain_before_offsets_32",
+          "value": "1,671.56",
+          "font_size": 10,
+          "x": 156.984,
+          "baseline_from_top": 708.0,
+          "width": 44.531
+        },
+        {
+          "page": 1,
+          "field": "tax_before_offsets_33",
+          "value": "417.89",
+          "font_size": 10,
+          "x": 161.755,
+          "baseline_from_top": 739.3,
+          "width": 34.99
+        },
+        {
+          "page": 2,
+          "field": "note_sale",
+          "value": "טופס 4 מתוך 6; מועד מכירה: 26/08/2025; מזהה מכירה:",
+          "font_size": 6.8,
+          "x": 138.854,
+          "baseline_from_top": 154.9,
+          "width": 170.146
+        },
+        {
+          "page": 2,
+          "field": "note_sale_hash",
+          "value": "0x87c2d35a6549d00914510f02208937ce8bbec7680a45c3554489991435c031f6",
+          "font_size": 6.0,
+          "x": 59,
+          "baseline_from_top": 161.7,
+          "width": 245.109
+        },
+        {
+          "page": 2,
+          "field": "note_purchase",
+          "value": "מנת רכישה מיום 20/08/2017 | מזהה רכישה:",
+          "font_size": 6.8,
+          "x": 175.653,
+          "baseline_from_top": 169.4,
+          "width": 133.347
+        },
+        {
+          "page": 2,
+          "field": "note_purchase_hash",
+          "value": "0xaf8fc667e7482e1d7e8ba63fb977bae0af9663ce9148bd2b945bd0f6a87c0f3d",
+          "font_size": 6.0,
+          "x": 59,
+          "baseline_from_top": 176.2,
+          "width": 238.474
+        },
+        {
+          "page": 2,
+          "field": "note_valuation",
+          "value": "שווי ש״ח לפי אומדני נייר העבודה; מס 25% לפני קיזוזים.",
+          "font_size": 6.8,
+          "x": 145.123,
+          "baseline_from_top": 183.7,
+          "width": 163.877
+        },
+        {
+          "page": 2,
+          "field": "note_index_base",
+          "value": "מדדים בבסיס ממוצע 2016 = 100. פרטים חסרים וחתימה להשלמה.",
+          "font_size": 6.8,
+          "x": 108.925,
+          "baseline_from_top": 190.5,
+          "width": 200.075
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "file": "1399_2025_ETH_05_2025-11-12.pdf",
+      "sale_date": "12/11/2025",
+      "quantity": "0.15636768",
+      "sale_hash": "0x76eae7aa0ca15512585b2cd6bc63491461d957ce6f03030b40b93026d57cffca",
+      "purchase_hash": "0xaf8fc667e7482e1d7e8ba63fb977bae0af9663ce9148bd2b945bd0f6a87c0f3d",
+      "fields": {
+        "sale_amount": "1,735.03",
+        "sale_index": "119.366457",
+        "cost": "166.43",
+        "purchase_index": "99.9",
+        "original_cost": "166.43",
+        "expenses": "0.51",
+        "adjusted_cost": "198.86",
+        "inflation": "32.43",
+        "gain": "1,568.09",
+        "real_gain": "1,535.66",
+        "attributable_gain": "1,535.66",
+        "post_2012_gain": "1,535.66",
+        "gain_before_offsets": "1,535.66",
+        "tax_before_offsets": "383.92"
+      },
+      "overlay_entries": [
+        {
+          "page": 1,
+          "field": "tax_year",
+          "value": "2025",
+          "font_size": 10.5,
+          "x": 142.539,
+          "baseline_from_top": 86.8,
+          "width": 26.722
+        },
+        {
+          "page": 1,
+          "field": "transaction_code",
+          "value": "77",
+          "font_size": 10.5,
+          "x": 265.42,
+          "baseline_from_top": 86.8,
+          "width": 13.361
+        },
+        {
+          "page": 1,
+          "field": "seller_name",
+          "value": "כפיר זיני",
+          "font_size": 11,
+          "x": 466.008,
+          "baseline_from_top": 152.3,
+          "width": 37.984
+        },
+        {
+          "page": 1,
+          "field": "identity_in_seller_box",
+          "value": "ת״ז 302503982",
+          "font_size": 8.0,
+          "x": 454.232,
+          "baseline_from_top": 163.0,
+          "width": 61.535
+        },
+        {
+          "page": 1,
+          "field": "asset",
+          "value": "ETH 0.15636768",
+          "font_size": 8.0,
+          "x": 457.824,
+          "baseline_from_top": 189.8,
+          "width": 66.852
+        },
+        {
+          "page": 1,
+          "field": "sale_amount",
+          "value": "1,735.03",
+          "font_size": 10.5,
+          "x": 328.121,
+          "baseline_from_top": 233.7,
+          "width": 46.758
+        },
+        {
+          "page": 1,
+          "field": "sale_index",
+          "value": "119.366457",
+          "font_size": 7.1,
+          "x": 183.294,
+          "baseline_from_top": 233.5,
+          "width": 42.912
+        },
+        {
+          "page": 1,
+          "field": "sale_date_day",
+          "value": "12",
+          "font_size": 8.1,
+          "x": 234.097,
+          "baseline_from_top": 237.0,
+          "width": 10.307
+        },
+        {
+          "page": 1,
+          "field": "sale_date_month",
+          "value": "11",
+          "font_size": 8.1,
+          "x": 252.197,
+          "baseline_from_top": 237.0,
+          "width": 10.307
+        },
+        {
+          "page": 1,
+          "field": "sale_date_year",
+          "value": "2025",
+          "font_size": 8.1,
+          "x": 266.943,
+          "baseline_from_top": 237.0,
+          "width": 20.614
+        },
+        {
+          "page": 1,
+          "field": "cost",
+          "value": "166.43",
+          "font_size": 10.5,
+          "x": 333.13,
+          "baseline_from_top": 266.5,
+          "width": 36.74
+        },
+        {
+          "page": 1,
+          "field": "purchase_index",
+          "value": "99.9",
+          "font_size": 8.5,
+          "x": 195.287,
+          "baseline_from_top": 266.0,
+          "width": 18.926
+        },
+        {
+          "page": 1,
+          "field": "purchase_date_day",
+          "value": "20",
+          "font_size": 8.1,
+          "x": 234.097,
+          "baseline_from_top": 270.0,
+          "width": 10.307
+        },
+        {
+          "page": 1,
+          "field": "purchase_date_month",
+          "value": "08",
+          "font_size": 8.1,
+          "x": 252.197,
+          "baseline_from_top": 270.0,
+          "width": 10.307
+        },
+        {
+          "page": 1,
+          "field": "purchase_date_year",
+          "value": "2017",
+          "font_size": 8.1,
+          "x": 266.943,
+          "baseline_from_top": 270.0,
+          "width": 20.614
+        },
+        {
+          "page": 1,
+          "field": "adjusted_cost_at_purchase_row",
+          "value": "198.86",
+          "font_size": 10,
+          "x": 125.005,
+          "baseline_from_top": 266.5,
+          "width": 34.99
+        },
+        {
+          "page": 1,
+          "field": "original_cost",
+          "value": "166.43",
+          "font_size": 10.5,
+          "x": 333.13,
+          "baseline_from_top": 422.0,
+          "width": 36.74
+        },
+        {
+          "page": 1,
+          "field": "expenses",
+          "value": "0.51",
+          "font_size": 10.5,
+          "x": 339.811,
+          "baseline_from_top": 444.4,
+          "width": 23.379
+        },
+        {
+          "page": 1,
+          "field": "adjusted_cost_total_13",
+          "value": "198.86",
+          "font_size": 10,
+          "x": 118.005,
+          "baseline_from_top": 402.6,
+          "width": 34.99
+        },
+        {
+          "page": 1,
+          "field": "inflation_17",
+          "value": "32.43",
+          "font_size": 10,
+          "x": 175.686,
+          "baseline_from_top": 467.0,
+          "width": 28.628
+        },
+        {
+          "page": 1,
+          "field": "gain_18",
+          "value": "1,568.09",
+          "font_size": 10.5,
+          "x": 37.621,
+          "baseline_from_top": 467.0,
+          "width": 46.758
+        },
+        {
+          "page": 1,
+          "field": "virtual_currency_code_71",
+          "value": true,
+          "x": 441.5,
+          "y": 518.0
+        },
+        {
+          "page": 1,
+          "field": "real_gain_24",
+          "value": "1,535.66",
+          "font_size": 10,
+          "x": 223.984,
+          "baseline_from_top": 589.2,
+          "width": 44.531
+        },
+        {
+          "page": 1,
+          "field": "attributable_gain_24a",
+          "value": "1,535.66",
+          "font_size": 10,
+          "x": 46.234,
+          "baseline_from_top": 589.2,
+          "width": 44.531
+        },
+        {
+          "page": 1,
+          "field": "post_2012_gain_27",
+          "value": "1,535.66",
+          "font_size": 10,
+          "x": 156.984,
+          "baseline_from_top": 644.0,
+          "width": 44.531
+        },
+        {
+          "page": 1,
+          "field": "gain_before_offsets_32",
+          "value": "1,535.66",
+          "font_size": 10,
+          "x": 156.984,
+          "baseline_from_top": 708.0,
+          "width": 44.531
+        },
+        {
+          "page": 1,
+          "field": "tax_before_offsets_33",
+          "value": "383.92",
+          "font_size": 10,
+          "x": 161.755,
+          "baseline_from_top": 739.3,
+          "width": 34.99
+        },
+        {
+          "page": 2,
+          "field": "note_sale",
+          "value": "טופס 5 מתוך 6; מועד מכירה: 12/11/2025; מזהה מכירה:",
+          "font_size": 6.8,
+          "x": 138.854,
+          "baseline_from_top": 154.9,
+          "width": 170.146
+        },
+        {
+          "page": 2,
+          "field": "note_sale_hash",
+          "value": "0x76eae7aa0ca15512585b2cd6bc63491461d957ce6f03030b40b93026d57cffca",
+          "font_size": 6.0,
+          "x": 59,
+          "baseline_from_top": 161.7,
+          "width": 242.312
+        },
+        {
+          "page": 2,
+          "field": "note_purchase",
+          "value": "מנת רכישה מיום 20/08/2017 | מזהה רכישה:",
+          "font_size": 6.8,
+          "x": 175.653,
+          "baseline_from_top": 169.4,
+          "width": 133.347
+        },
+        {
+          "page": 2,
+          "field": "note_purchase_hash",
+          "value": "0xaf8fc667e7482e1d7e8ba63fb977bae0af9663ce9148bd2b945bd0f6a87c0f3d",
+          "font_size": 6.0,
+          "x": 59,
+          "baseline_from_top": 176.2,
+          "width": 238.474
+        },
+        {
+          "page": 2,
+          "field": "note_valuation",
+          "value": "שווי ש״ח לפי אומדני נייר העבודה; מס 25% לפני קיזוזים.",
+          "font_size": 6.8,
+          "x": 145.123,
+          "baseline_from_top": 183.7,
+          "width": 163.877
+        },
+        {
+          "page": 2,
+          "field": "note_index_base",
+          "value": "מדדים בבסיס ממוצע 2016 = 100. פרטים חסרים וחתימה להשלמה.",
+          "font_size": 6.8,
+          "x": 108.925,
+          "baseline_from_top": 190.5,
+          "width": 200.075
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "file": "1399_2025_ETH_06_2025-11-12.pdf",
+      "sale_date": "12/11/2025",
+      "quantity": "0.15644041",
+      "sale_hash": "0x1bffe0c2c864beba175687f045c5cc153e4c4a73fbea9974b3b7d763d7b880ab",
+      "purchase_hash": "0xaf8fc667e7482e1d7e8ba63fb977bae0af9663ce9148bd2b945bd0f6a87c0f3d",
+      "fields": {
+        "sale_amount": "1,743.18",
+        "sale_index": "119.366457",
+        "cost": "166.51",
+        "purchase_index": "99.9",
+        "original_cost": "166.51",
+        "expenses": "0.51",
+        "adjusted_cost": "198.96",
+        "inflation": "32.45",
+        "gain": "1,576.16",
+        "real_gain": "1,543.71",
+        "attributable_gain": "1,543.71",
+        "post_2012_gain": "1,543.71",
+        "gain_before_offsets": "1,543.71",
+        "tax_before_offsets": "385.93"
+      },
+      "overlay_entries": [
+        {
+          "page": 1,
+          "field": "tax_year",
+          "value": "2025",
+          "font_size": 10.5,
+          "x": 142.539,
+          "baseline_from_top": 86.8,
+          "width": 26.722
+        },
+        {
+          "page": 1,
+          "field": "transaction_code",
+          "value": "77",
+          "font_size": 10.5,
+          "x": 265.42,
+          "baseline_from_top": 86.8,
+          "width": 13.361
+        },
+        {
+          "page": 1,
+          "field": "seller_name",
+          "value": "כפיר זיני",
+          "font_size": 11,
+          "x": 466.008,
+          "baseline_from_top": 152.3,
+          "width": 37.984
+        },
+        {
+          "page": 1,
+          "field": "identity_in_seller_box",
+          "value": "ת״ז 302503982",
+          "font_size": 8.0,
+          "x": 454.232,
+          "baseline_from_top": 163.0,
+          "width": 61.535
+        },
+        {
+          "page": 1,
+          "field": "asset",
+          "value": "ETH 0.15644041",
+          "font_size": 8.0,
+          "x": 457.824,
+          "baseline_from_top": 189.8,
+          "width": 66.852
+        },
+        {
+          "page": 1,
+          "field": "sale_amount",
+          "value": "1,743.18",
+          "font_size": 10.5,
+          "x": 328.121,
+          "baseline_from_top": 233.7,
+          "width": 46.758
+        },
+        {
+          "page": 1,
+          "field": "sale_index",
+          "value": "119.366457",
+          "font_size": 7.1,
+          "x": 183.294,
+          "baseline_from_top": 233.5,
+          "width": 42.912
+        },
+        {
+          "page": 1,
+          "field": "sale_date_day",
+          "value": "12",
+          "font_size": 8.1,
+          "x": 234.097,
+          "baseline_from_top": 237.0,
+          "width": 10.307
+        },
+        {
+          "page": 1,
+          "field": "sale_date_month",
+          "value": "11",
+          "font_size": 8.1,
+          "x": 252.197,
+          "baseline_from_top": 237.0,
+          "width": 10.307
+        },
+        {
+          "page": 1,
+          "field": "sale_date_year",
+          "value": "2025",
+          "font_size": 8.1,
+          "x": 266.943,
+          "baseline_from_top": 237.0,
+          "width": 20.614
+        },
+        {
+          "page": 1,
+          "field": "cost",
+          "value": "166.51",
+          "font_size": 10.5,
+          "x": 333.13,
+          "baseline_from_top": 266.5,
+          "width": 36.74
+        },
+        {
+          "page": 1,
+          "field": "purchase_index",
+          "value": "99.9",
+          "font_size": 8.5,
+          "x": 195.287,
+          "baseline_from_top": 266.0,
+          "width": 18.926
+        },
+        {
+          "page": 1,
+          "field": "purchase_date_day",
+          "value": "20",
+          "font_size": 8.1,
+          "x": 234.097,
+          "baseline_from_top": 270.0,
+          "width": 10.307
+        },
+        {
+          "page": 1,
+          "field": "purchase_date_month",
+          "value": "08",
+          "font_size": 8.1,
+          "x": 252.197,
+          "baseline_from_top": 270.0,
+          "width": 10.307
+        },
+        {
+          "page": 1,
+          "field": "purchase_date_year",
+          "value": "2017",
+          "font_size": 8.1,
+          "x": 266.943,
+          "baseline_from_top": 270.0,
+          "width": 20.614
+        },
+        {
+          "page": 1,
+          "field": "adjusted_cost_at_purchase_row",
+          "value": "198.96",
+          "font_size": 10,
+          "x": 125.005,
+          "baseline_from_top": 266.5,
+          "width": 34.99
+        },
+        {
+          "page": 1,
+          "field": "original_cost",
+          "value": "166.51",
+          "font_size": 10.5,
+          "x": 333.13,
+          "baseline_from_top": 422.0,
+          "width": 36.74
+        },
+        {
+          "page": 1,
+          "field": "expenses",
+          "value": "0.51",
+          "font_size": 10.5,
+          "x": 339.811,
+          "baseline_from_top": 444.4,
+          "width": 23.379
+        },
+        {
+          "page": 1,
+          "field": "adjusted_cost_total_13",
+          "value": "198.96",
+          "font_size": 10,
+          "x": 118.005,
+          "baseline_from_top": 402.6,
+          "width": 34.99
+        },
+        {
+          "page": 1,
+          "field": "inflation_17",
+          "value": "32.45",
+          "font_size": 10,
+          "x": 175.686,
+          "baseline_from_top": 467.0,
+          "width": 28.628
+        },
+        {
+          "page": 1,
+          "field": "gain_18",
+          "value": "1,576.16",
+          "font_size": 10.5,
+          "x": 37.621,
+          "baseline_from_top": 467.0,
+          "width": 46.758
+        },
+        {
+          "page": 1,
+          "field": "virtual_currency_code_71",
+          "value": true,
+          "x": 441.5,
+          "y": 518.0
+        },
+        {
+          "page": 1,
+          "field": "real_gain_24",
+          "value": "1,543.71",
+          "font_size": 10,
+          "x": 223.984,
+          "baseline_from_top": 589.2,
+          "width": 44.531
+        },
+        {
+          "page": 1,
+          "field": "attributable_gain_24a",
+          "value": "1,543.71",
+          "font_size": 10,
+          "x": 46.234,
+          "baseline_from_top": 589.2,
+          "width": 44.531
+        },
+        {
+          "page": 1,
+          "field": "post_2012_gain_27",
+          "value": "1,543.71",
+          "font_size": 10,
+          "x": 156.984,
+          "baseline_from_top": 644.0,
+          "width": 44.531
+        },
+        {
+          "page": 1,
+          "field": "gain_before_offsets_32",
+          "value": "1,543.71",
+          "font_size": 10,
+          "x": 156.984,
+          "baseline_from_top": 708.0,
+          "width": 44.531
+        },
+        {
+          "page": 1,
+          "field": "tax_before_offsets_33",
+          "value": "385.93",
+          "font_size": 10,
+          "x": 161.755,
+          "baseline_from_top": 739.3,
+          "width": 34.99
+        },
+        {
+          "page": 2,
+          "field": "note_sale",
+          "value": "טופס 6 מתוך 6; מועד מכירה: 12/11/2025; מזהה מכירה:",
+          "font_size": 6.8,
+          "x": 138.854,
+          "baseline_from_top": 154.9,
+          "width": 170.146
+        },
+        {
+          "page": 2,
+          "field": "note_sale_hash",
+          "value": "0x1bffe0c2c864beba175687f045c5cc153e4c4a73fbea9974b3b7d763d7b880ab",
+          "font_size": 6.0,
+          "x": 59,
+          "baseline_from_top": 161.7,
+          "width": 240.595
+        },
+        {
+          "page": 2,
+          "field": "note_purchase",
+          "value": "מנת רכישה מיום 20/08/2017 | מזהה רכישה:",
+          "font_size": 6.8,
+          "x": 175.653,
+          "baseline_from_top": 169.4,
+          "width": 133.347
+        },
+        {
+          "page": 2,
+          "field": "note_purchase_hash",
+          "value": "0xaf8fc667e7482e1d7e8ba63fb977bae0af9663ce9148bd2b945bd0f6a87c0f3d",
+          "font_size": 6.0,
+          "x": 59,
+          "baseline_from_top": 176.2,
+          "width": 238.474
+        },
+        {
+          "page": 2,
+          "field": "note_valuation",
+          "value": "שווי ש״ח לפי אומדני נייר העבודה; מס 25% לפני קיזוזים.",
+          "font_size": 6.8,
+          "x": 145.123,
+          "baseline_from_top": 183.7,
+          "width": 163.877
+        },
+        {
+          "page": 2,
+          "field": "note_index_base",
+          "value": "מדדים בבסיס ממוצע 2016 = 100. פרטים חסרים וחתימה להשלמה.",
+          "font_size": 6.8,
+          "x": 108.925,
+          "baseline_from_top": 190.5,
+          "width": 200.075
+        }
+      ]
+    }
+  ],
+  "unfilled": [
+    "tax_file_number",
+    "buyer_name",
+    "asset_location",
+    "ownership_attribution",
+    "related_party",
+    "personal_exemptions",
+    "offsets",
+    "signature",
+    "signature_date"
+  ],
+  "combined_pdf": "1399_2025_ETH_כל_הטפסים.pdf"
+}
